@@ -6,17 +6,19 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 2. Unzip the downloaded file.
 
-3. Download the run_analysis.R script from following URL.
+3. Download the run_analysis.R script from following URL.                
+   https://github.com/dyyee/Getting_and_Cleaning_Data_Project/archive/master.zip
 
-4. Save run_analysis.R script in the above unzipped folder.                
-   Note: It should be same level with activity_labels.txt, features.txt and features_info.txt files
+
+4. Unzip and Move run_analysis.R script to the above unzipped 'UCI HAR Dataset' folder (in Step 2).                
+   Note: The run_analysis.R should be same level with activity_labels.txt, features.txt and features_info.txt files
   
 
 5. Install reshape2 package by executing following code
 	```
 	install.packages("reshape2") 
     ```
-   This is because this script required reshape2 library to execute the code.                
+   This is because this script required function in reshape2 library to execute the code.                
    If you have installed reshape2 package, you can skip this step.
 
 6. Set the working directory the above unzipped directory.                
